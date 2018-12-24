@@ -9,7 +9,7 @@ import time
 
 driver = webdriver.Chrome()
 driver.fullscreen_window()
-driver.get("http://eduweixin.fycms.com/admin.php?s=/Public/login.html ")
+driver.get("网址 ")
 driver.find_element_by_name("username").send_keys("admin")
 driver.find_element_by_name("password").send_keys("admin")
 driver.find_element_by_name("Submit").click()
